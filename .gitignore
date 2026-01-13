@@ -1,3 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
 .venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (jika terlalu besar)
 housePrice_train.csv
 test.csv
+*.csv
+
+# Model files (opsional, jika terlalu besar bisa di-ignore)
+# house_price_model.pkl
+# feature_columns.pkl
+
+# OS
+.DS_Store
+Thumbs.db
